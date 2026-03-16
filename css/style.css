@@ -67,6 +67,7 @@ a.btn {
     align-content: center;
     padding: 50px;
     line-height: 50px;
+    min-height: max-content;
 }
 .hero h1 {
     color: #fcfcfc;

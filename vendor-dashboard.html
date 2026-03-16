@@ -13,8 +13,8 @@
         <a class="web" href="laptop.html">Catalogue</a>
         <a class="web" href="contme.html">Contact us</a>   
         <a class="web" href="login.html">Login</a>   
-        <a class="web" href="dashboard.html">Dashboard</a>
-        <a class="active" href="reg.html">Register</a>    
+        <a class="active" href="dashboard.html">Dashboard</a>
+        <a class="web" href="reg.html">Register</a>    
 <div class="meh align: right">
         <form class="form-inline">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -25,3 +25,61 @@
     <section class="hero">
         <h1> Vendor-Dashboard</h1>
     </section>
+    <section>
+        <h4>Add laptop</h4>
+        <form id="addLaptop">
+            <div>
+            <input class="form-control mb-2" placeholder="Laptop Name" id="name">
+            </div>
+            <div>
+            <textarea class="form-control mb-2" placeholder="specifications" id="specs"></textarea>
+            </div>
+            <div>
+            <input class="form-control mb-2" placeholder="Price Per Day" id="price">
+            </div>
+            <div>
+            <input type="file" class="form-control mb-2" id="image">
+            </div>
+            <button class="btn btn-success">Add Laptop</button>
+        </form>
+    </section>
+    <div>
+        <h4>My Laptops</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="myLaptops"></tbody>
+        </table>
+    </div>
+    <div>
+        <hr>
+        <h4>Rental Requests</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Laptop</th>
+                    <th>Days</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="Requests"></tbody>
+        </table>
+    </div>
+    <script src="js/notification.js"></script>
+    <footer>
+        <h2>Name of Business</h2>
+        <p>Inspirational quote or mission statement maybe</p>
+    </footer>
+    <div class="footer">
+        <p>All rights reserved &copy; 2026</p>
+    </div>
+
+    </body>
+    </html>
